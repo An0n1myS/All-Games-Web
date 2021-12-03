@@ -1,0 +1,97 @@
+body{
+background: url('../img/allbg.jpg');
+background-size: 100%;
+background-repeat: no-repeat;
+	.wrapper{
+
+		.page-title{
+			font-size: 35px;
+			text-align: center;
+			margin-top: 30px;
+		}
+		.link-elements{
+
+			margin-top: 20px;
+			display: grid;
+			grid-template: repeat(2,6fr) / repeat(2,6fr);
+			justify-items: stretch;
+			justify-content: space-around;
+
+			.magic-ball{
+				display: flex;
+				flex-direction: column;
+				justify-content:space-around;
+				margin: auto 20%;
+			}
+			.warriers{
+				display: flex;
+				flex-direction: column;
+				justify-content:space-around;
+				margin: auto 25%;
+			}
+			.slots{
+				display: flex;
+				flex-direction: column;
+				justify-content:space-around;
+				margin: auto 20%;
+			}
+			.twenty-one{
+				display: flex;
+				flex-direction: column;
+				justify-content:space-around;
+				margin: auto 25%;
+			}
+		}
+		.link-elements button{
+			width: 400px;
+			height: 40px;
+			margin: 25px 0px;
+			background: #00FF00;
+			border: 2px solid black;
+			border-radius: 10px;
+		}
+
+		.link{
+			
+			.img-mb{
+				width: 400px;
+				height: 200px;
+				background: url('../img/mb.jpg');
+				background-size: 103%;
+				background-repeat: no-repeat;
+				border: 2px solid black;
+				border-radius: 10%;
+			}
+			.img-wk{
+				width: 400px;
+				height: 200px;
+				background: url('../img/wk.jpg');
+				background-size: 103%;
+				background-repeat: no-repeat;
+				border: 2px solid black;
+				border-radius: 10%;
+			}
+			.img-s{
+				width: 400px;
+				height: 200px;
+				background: url('../img/spin.jpg');
+				background-size: 103%;
+				background-repeat: no-repeat;
+				border: 2px solid black;
+				border-radius: 10%;
+			}
+			.img-tw{
+				width: 400px;
+				height: 200px;
+				background: url('../img/tw.jpg');
+				background-size: 103%;
+				background-repeat: no-repeat;
+				border: 2px solid black;
+				border-radius: 10%;
+			}
+		}
+
+	}
+
+
+}
